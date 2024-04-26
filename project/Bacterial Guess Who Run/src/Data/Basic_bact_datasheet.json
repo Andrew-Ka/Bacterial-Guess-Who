@@ -1,0 +1,968 @@
+{
+  "Acetobacter aurantius": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Aerobic",
+	"Clinical Features": "Production of vinegar"
+  },
+  "Acinetobacter baumannii": {
+	"Morphology": "Coccobacilli-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Hospital-acquired infections"
+  },
+  "Actinomyces israelii": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Microaerophilic",
+	"Clinical Features": "Actinomycetoma"
+  },
+  "Agrobacterium radiobacter": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Crown gall disease"
+  },
+  "Agrobacterium tumefaciens": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Crown gall disease"
+  },
+  "Anaplasma phagocytophilum": {
+	"Morphology": "Spheres",
+	"Gram": "Not applicable (lacks cell wall)",
+	"Metabolism (anaerobic, facultative, ...)": "Obligate intracellular parasite",
+	"Clinical Features": "Anaplasmosis"
+  },
+  "Azorhizobium caulinodans": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Microaerophilic",
+	"Clinical Features": "Nitrogen fixation"
+  },
+  "Azotobacter vinelandii": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Aerobic",
+	"Clinical Features": "Nitrogen fixation"
+  },
+  "Viridans streptococci": {
+	"Morphology": "Streptococci (chain-forming cocci)",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Endocarditis, pneumonia"
+  },
+  "Bacillus anthracis": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Aerobic",
+	"Clinical Features": "Anthrax"
+  },
+  "Bacillus brevis": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "None"
+  },
+  "Bacillus cereus": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Food poisoning"
+  },
+  "Bacillus fusiformis": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Anaerobic",
+	"Clinical Features": "Orofacial infections (rare)"
+  },
+  "Bacillus licheniformis": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Food spoilage (rare)"
+  },
+  "Bacillus megaterium": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Aerobic",
+	"Clinical Features": "None"
+  },
+  "Bacillus mycoides": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Aerobic",
+	"Clinical Features": "Food spoilage (rare)"
+  },
+  "Bacillus stearothermophilus": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Thermophilic",
+	"Clinical Features": "None"
+  },
+  "Bacillus subtilis": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Can be probiotic"
+  },
+  "Bacillus thuringiensis": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Aerobic",
+	"Clinical Features": "Insecticide production"
+  },
+  "Bacteroides fragilis": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Anaerobic",
+	"Clinical Features": "Intra-abdominal infections"
+  },
+  "Bacteroides gingivalis": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Anaerobic",
+	"Clinical Features": "Periodontal disease"
+  },
+  "Bacteroides melaninogenicus": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Anaerobic",
+	"Clinical Features": "Abscesses"
+  },
+  "Bartonella henselae": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Cat scratch disease"
+  },
+  "Bartonella quintana": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Trench fever (rare)"
+  },
+  "Bordetella bronchiseptica": {
+	"Morphology": "Coccobacilli-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Kennel cough"
+  },
+  "Bordetella pertussis": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Aerobic",
+	"Clinical Features": "Whooping cough"
+  },
+  "Borrelia burgdorferi": {
+	"Morphology": "Spiral-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Microaerophilic",
+	"Clinical Features": "Lyme disease"
+  },
+  "Brucella abortus": {
+	"Morphology": "Coccobacilli-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Brucellosis (in cattle)"
+  },
+  "Brucella melitensis": {
+	"Morphology": "Coccobacilli-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Brucellosis (in goats and sheep)"
+  },
+  "Brucella suis": {
+	"Morphology": "Coccobacilli-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Brucellosis (in pigs)"
+  },
+  "Burkholderia mallei": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Glanders (rare)"
+  },
+  "Burkholderia pseudomallei": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Melioidosis"
+  },
+  "Burkholderia cepacia": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Nosocomial infections (in cystic fibrosis patients)"
+  },
+  "Calymmatobacterium granulomatis": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Donovanosis"
+  },
+  "Campylobacter coli": {
+	"Morphology": "Spiral-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Microaerophilic",
+	"Clinical Features": "Diarrhea"
+  },
+  "Campylobacter fetus": {
+	"Morphology": "Spiral-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Microaerophilic",
+	"Clinical Features": "Campylobacteriosis (in animals)"
+  },
+  "Campylobacter jejuni": {
+	"Morphology": "Spiral-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Microaerophilic",
+	"Clinical Features": "Diarrhea"
+  },
+  "Campylobacter pylori": {
+	"Morphology": "Spiral-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Microaerophilic",
+	"Clinical Features": "Gastritis, peptic ulcers"
+  },
+  "Capnocytophaga canimorsus": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Aerobic",
+	"Clinical Features": "Dog bite sepsis (rare)"
+  },
+  "Chlamydia trachomatis": {
+	"Morphology": "Spheres",
+	"Gram": "Not applicable (obligate intracellular parasite)",
+	"Metabolism (anaerobic, facultative, ...)": "Obligate intracellular parasite",
+	"Clinical Features": "Sexually transmitted infections, trachoma"
+  },
+  "Chlamydophila pneumoniae": {
+	"Morphology": "Spheres",
+	"Gram": "Not applicable (obligate intracellular parasite)",
+	"Metabolism (anaerobic, facultative, ...)": "Obligate intracellular parasite",
+	"Clinical Features": "Pneumonia"
+  },
+  "Chlamydophila psittaci": {
+	"Morphology": "Spheres",
+	"Gram": "Not applicable (obligate intracellular parasite)",
+	"Metabolism (anaerobic, facultative, ...)": "Obligate intracellular parasite",
+	"Clinical Features": "Psittacosis (parrot fever)"
+  },
+  "Citrobacter freundii": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Urinary tract infections"
+  },
+  "Citrobacter koseri": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Nosocomial infections"
+  },
+  "Clostridium botulinum": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Anaerobic",
+	"Clinical Features": "Botulism"
+  },
+  "Clostridium difficile": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Anaerobic",
+	"Clinical Features": "Antibiotic-associated diarrhea"
+  },
+  "Clostridium perfringens": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Anaerobic",
+	"Clinical Features": "Gas gangrene, food poisoning"
+  },
+  "Clostridium tetani": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Anaerobic",
+	"Clinical Features": "Tetanus"
+  },
+  "Corynebacterium diphtheriae": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Aerobic",
+	"Clinical Features": "Diphtheria"
+  },
+  "Corynebacterium fusiforme": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Anaerobic",
+	"Clinical Features": "Diphtheria-like illness (rare)"
+  },
+  "Coxiella burnetii": {
+	"Morphology": "Spheres",
+	"Gram": "Not applicable (lacks cell wall)",
+	"Metabolism (anaerobic, facultative, ...)": "Obligate intracellular parasite",
+	"Clinical Features": "Q fever"
+  },
+  "Cutibacterium acnes": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Anaerobic",
+	"Clinical Features": "Acne"
+  },
+  "Ehrlichia chaffeensis": {
+	"Morphology": "Spheres",
+	"Gram": "Not applicable (lacks cell wall)",
+	"Metabolism (anaerobic, facultative, ...)": "Obligate intracellular parasite",
+	"Clinical Features": "Human ehrlichiosis"
+  },
+  "Ehrlichia ewingii": {
+	"Morphology": "Spheres",
+	"Gram": "Not applicable (lacks cell wall)",
+	"Metabolism (anaerobic, facultative, ...)": "Obligate intracellular parasite",
+	"Clinical Features": "Human ehrlichiosis"
+  },
+  "Eikenella corrodens": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Anaerobic",
+	"Clinical Features": "Human bites (rare)"
+  },
+  "Enterobacter cloacae": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Nosocomial infections"
+  },
+  "Enterococcus avium": {
+	"Morphology": "Cocci",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Nosocomial infections"
+  },
+  "Enterococcus durans": {
+	"Morphology": "Cocci",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Nosocomial infections"
+  },
+  "Enterococcus faecalis": {
+	"Morphology": "Cocci",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Endocarditis, urinary tract infections"
+  },
+  "Enterococcus faecium": {
+	"Morphology": "Cocci",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Nosocomial infections"
+  },
+  "Enterococcus gallinarum": {
+	"Morphology": "Cocci",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Infections in poultry"
+  },
+  "Enterococcus maloratus": {
+	"Morphology": "Cocci",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Nosocomial infections"
+  },
+  "Escherichia coli": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Can be commensal or cause diarrhea"
+  },
+  "Francisella tularensis": {
+	"Morphology": "Coccobacilli-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Tularemia"
+  },
+  "Fusobacterium necrophorum": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Anaerobic",
+	"Clinical Features": "Necrotizing fasciitis (rare)"
+  },
+  "Fusobacterium nucleatum": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Anaerobic",
+	"Clinical Features": "Periodontal disease"
+  },
+  "Gardnerella vaginalis": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-variable",
+	"Metabolism (anaerobic, facultative, ...)": "Microaerophilic",
+	"Clinical Features": "Bacterial vaginosis"
+  },
+  "Haemophilus ducreyi": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Requires enriched media",
+	"Clinical Features": "Chancroid"
+  },
+  "Haemophilus influenzae": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Requires enriched media",
+	"Clinical Features": "Respiratory infections"
+  },
+  "Haemophilus parainfluenzae": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Requires enriched media",
+	"Clinical Features": "Respiratory infections"
+  },
+  "Haemophilus pertussis": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Aerobic",
+	"Clinical Features": "Whooping cough"
+  },
+  "Haemophilus vaginalis": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-variable",
+	"Metabolism (anaerobic, facultative, ...)": "Requires enriched media",
+	"Clinical Features": "Bacterial vaginosis"
+  },
+  "Helicobacter pylori": {
+	"Morphology": "Spiral-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Microaerophilic",
+	"Clinical Features": "Gastritis, peptic ulcers"
+  },
+  "Kingella kingae": {
+	"Morphology": "Coccobacilli-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Bacteremia, osteomyelitis (in children)"
+  },
+  "Klebsiella granulomatis": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Granuloma inguinale"
+  },
+  "Klebsiella pneumoniae": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Pneumonia, urinary tract infections"
+  },
+  "Lactobacillus acidophilus": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Microaerophilic",
+	"Clinical Features": "Probiotic"
+  },
+  "Lactobacillus bulgaricus": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Microaerophilic",
+	"Clinical Features": "Probiotic"
+  },
+  "Lactobacillus casei": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Probiotic"
+  },
+  "Lactococcus lactis": {
+	"Morphology": "Cocci",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Used in food production"
+  },
+  "Legionella pneumophila": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Aerobic",
+	"Clinical Features": "Legionnaires' disease"
+  },
+  "Leptospira interrogans": {
+	"Morphology": "Spiral-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Aerobic",
+	"Clinical Features": "Leptospirosis"
+  },
+  "Leptospira noguchii": {
+	"Morphology": "Spiral-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Aerobic",
+	"Clinical Features": "Weil's disease (a form of leptospirosis)"
+  },
+  "Listeria monocytogenes": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Listeriosis"
+  },
+  "Methanobacterium extroquens": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Anaerobic",
+	"Clinical Features": "Methanogen (produces methane)"
+  },
+  "Microbacterium multiforme": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Aerobic",
+	"Clinical Features": "Can be commensal or cause opportunistic infections"
+  },
+  "Micrococcus luteus": {
+	"Morphology": "Cocci",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Aerobic",
+	"Clinical Features": "Can be commensal or cause opportunistic infections"
+  },
+  "Moraxella catarrhalis": {
+	"Morphology": "Coccobacilli-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Aerobic",
+	"Clinical Features": "Otitis media, bronchitis"
+  },
+  "Mycobacterium avium": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Acid-fast",
+	"Metabolism (anaerobic, facultative, ...)": "Aerobic",
+	"Clinical Features": "Mycobacterium avium complex (MAC) infections"
+  },
+  "Mycobacterium bovis": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Acid-fast",
+	"Metabolism (anaerobic, facultative, ...)": "Aerobic",
+	"Clinical Features": "Bovine tuberculosis"
+  },
+  "Mycobacterium diphtheriae": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Acid-fast",
+	"Metabolism (anaerobic, facultative, ...)": "Aerobic",
+	"Clinical Features": "Not a true diphtheria causing agent"
+  },
+  "Mycobacterium intracellulare": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Acid-fast",
+	"Metabolism (anaerobic, facultative, ...)": "Aerobic",
+	"Clinical Features": "Mycobacterium avium complex (MAC) infections"
+  },
+  "Mycobacterium leprae": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Acid-fast",
+	"Metabolism (anaerobic, facultative, ...)": "Obligate intracellular parasite",
+	"Clinical Features": "Leprosy"
+  },
+  "Mycobacterium lepraemurium": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Acid-fast",
+	"Metabolism (anaerobic, facultative, ...)": "Obligate intracellular parasite",
+	"Clinical Features": "Murine leprosy"
+  },
+  "Mycobacterium phlei": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Acid-fast",
+	"Metabolism (anaerobic, facultative, ...)": "Aerobic",
+	"Clinical Features": "Used in laboratory testing"
+  },
+  "Mycobacterium smegmatis": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Acid-fast",
+	"Metabolism (anaerobic, facultative, ...)": "Aerobic",
+	"Clinical Features": "Used in laboratory testing"
+  },
+  "Mycobacterium tuberculosis": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Acid-fast",
+	"Metabolism (anaerobic, facultative, ...)": "Aerobic",
+	"Clinical Features": "Tuberculosis"
+  },
+  "Mycoplasma fermentans": {
+	"Morphology": "Spheres",
+	"Gram": "Not applicable (lacks cell wall)",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Can be commensal or cause respiratory infections"
+  },
+  "Mycoplasma genitalium": {
+	"Morphology": "Spheres",
+	"Gram": "Not applicable (lacks cell wall)",
+	"Metabolism (anaerobic, facultative, ...)": "Anaerobic",
+	"Clinical Features": "Genital infections"
+  },
+  "Mycoplasma hominis": {
+	"Morphology": "Spheres",
+	"Gram": "Not applicable (lacks cell wall)",
+	"Metabolism (anaerobic, facultative, ...)": "Anaerobic",
+	"Clinical Features": "Pelvic inflammatory disease"
+  },
+  "Mycoplasma penetrans": {
+	"Morphology": "Spheres",
+	"Gram": "Not applicable (lacks cell wall)",
+	"Metabolism (anaerobic, facultative, ...)": "Anaerobic",
+	"Clinical Features": "Urethral infections"
+  },
+  "Mycoplasma pneumoniae": {
+	"Morphology": "Spheres",
+	"Gram": "Not applicable (lacks cell wall)",
+	"Metabolism (anaerobic, facultative, ...)": "Aerobic",
+	"Clinical Features": "Walking pneumonia"
+  },
+  "Mycoplasma mexicanum": {
+	"Morphology": "Spheres",
+	"Gram": "Not applicable (lacks cell wall)",
+	"Metabolism (anaerobic, facultative, ...)": "Anaerobic",
+	"Clinical Features": "Can be commensal or cause respiratory infections"
+  },
+  "Neisseria gonorrhoeae": {
+	"Morphology": "Diplococci",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Aerobic",
+	"Clinical Features": "Gonorrhea"
+  },
+  "Neisseria meningitidis": {
+	"Morphology": "Diplococci",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Aerobic",
+	"Clinical Features": "Meningitis"
+  },
+  "Nocardia asteroides": {
+	"Morphology": "Branched filaments",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Aerobic",
+	"Clinical Features": "Nocardiosis"
+  },
+  "Nocardia brasiliensis": {
+	"Morphology": "Branched filaments",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Aerobic",
+	"Clinical Features": "Nocardiosis"
+  },
+  "Nocardia cyriacigeorgica": {
+	"Morphology": "Branched filaments",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Aerobic",
+	"Clinical Features": "Nocardiosis"
+  },
+  "Nocardia farcinica": {
+	"Morphology": "Branched filaments",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Aerobic",
+	"Clinical Features": "Nocardiosis"
+  },
+  "Pasteurella multocida": {
+	"Morphology": "Coccobacilli-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Pasteurellosis (various infections)"
+  },
+  "Porphyromonas gingivalis": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Anaerobic",
+	"Clinical Features": "Periodontal disease"
+  },
+  "Prevotella melaninogenica": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Anaerobic",
+	"Clinical Features": "Periodontal disease"
+  },
+  "Proteus mirabilis": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Urinary tract infections"
+  },
+  "Proteus penneri": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Urinary tract infections"
+  },
+  "Proteus vulgaris": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Urinary tract infections"
+  },
+  "Pseudomonas aeruginosa": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Aerobic",
+	"Clinical Features": "Nosocomial infections"
+  },
+  "Rhizobium radiobacter": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Microaerophilic",
+	"Clinical Features": "Nitrogen fixation"
+  },
+  "Rickettsia prowazekii": {
+	"Morphology": "Coccobacilli-shaped",
+	"Gram": "Not applicable (obligate intracellular parasite)",
+	"Metabolism (anaerobic, facultative, ...)": "Obligate intracellular parasite",
+	"Clinical Features": "Epidemic typhus"
+  },
+  "Rickettsia psittaci": {
+	"Morphology": "Coccobacilli-shaped",
+	"Gram": "Not applicable (obligate intracellular parasite)",
+	"Metabolism (anaerobic, facultative, ...)": "Obligate intracellular parasite",
+	"Clinical Features": "Psittacosis (parrot fever)"
+  },
+  "Rickettsia quintana": {
+	"Morphology": "Coccobacilli-shaped",
+	"Gram": "Not applicable (obligate intracellular parasite)",
+	"Metabolism (anaerobic, facultative, ...)": "Obligate intracellular parasite",
+	"Clinical Features": "Trench fever"
+  },
+  "Rickettsia rickettsii": {
+	"Morphology": "Coccobacilli-shaped",
+	"Gram": "Not applicable (obligate intracellular parasite)",
+	"Metabolism (anaerobic, facultative, ...)": "Obligate intracellular parasite",
+	"Clinical Features": "Rocky Mountain spotted fever"
+  },
+  "Rickettsia trachomae": {
+	"Morphology": "Coccobacilli-shaped",
+	"Gram": "Not applicable (obligate intracellular parasite)",
+	"Metabolism (anaerobic, facultative, ...)": "Obligate intracellular parasite",
+	"Clinical Features": "Endemic typhus"
+  },
+  "Rochalimaea henselae": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Cat scratch disease"
+  },
+  "Rochalimaea quintana": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Trench fever"
+  },
+  "Rothia dentocariosa": {
+	"Morphology": "Cocci",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Microaerophilic",
+	"Clinical Features": "Subacute endocarditis (rare)"
+  },
+  "Salmonella enteritidis": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Food poisoning"
+  },
+  "Salmonella typhi": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Typhoid fever"
+  },
+  "Salmonella typhimurium": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Food poisoning"
+  },
+  "Serratia marcescens": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Nosocomial infections"
+  },
+  "Shigella dysenteriae": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Bacillary dysentery"
+  },
+  "Spirillum volutans": {
+	"Morphology": "Spiral-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Microaerophilic",
+	"Clinical Features": "Rat-bite fever (rare)"
+  },
+  "Staphylococcus aureus": {
+	"Morphology": "Cocci",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Various infections, including pneumonia, skin infections, and food poisoning"
+  },
+  "Staphylococcus epidermidis": {
+	"Morphology": "Cocci",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Can be commensal or cause opportunistic infections"
+  },
+  "Stenotrophomonas maltophilia": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Nosocomial infections"
+  },
+  "Streptococcus agalactiae": {
+	"Morphology": "Cocci (chains)",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Newborn meningitis and sepsis"
+  },
+  "Streptococcus avium": {
+	"Morphology": "Cocci (chains)",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Endocarditis (rare)"
+  },
+  "Streptococcus bovis": {
+	"Morphology": "Cocci (chains)",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Endocarditis"
+  },
+  "Streptococcus cricetus": {
+	"Morphology": "Cocci (chains)",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Can be commensal or cause opportunistic infections"
+  },
+  "Streptococcus faceium": {
+	"Morphology": "Cocci (chains)",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Nosocomial infections"
+  },
+  "Streptococcus faecalis": {
+	"Morphology": "Cocci (chains)",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Endocarditis, urinary tract infections"
+  },
+  "Streptococcus ferus": {
+	"Morphology": "Cocci (chains)",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Can be commensal or cause opportunistic infections in the mouth"
+  },
+  "Streptococcus gallinarum": {
+	"Morphology": "Cocci (chains)",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Infections in poultry"
+  },
+  "Streptococcus lactis": {
+	"Morphology": "Cocci (chains)",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Used in food production (e.g., yogurt, cheese)"
+  },
+  "Streptococcus mitior": {
+	"Morphology": "Cocci (chains)",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Currently classified as Streptococcus mitis"
+  },
+  "Streptococcus mitis": {
+	"Morphology": "Cocci (chains)",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Can be part of the normal oral flora or cause opportunistic infections like endocarditis"
+  },
+  "Streptococcus mutans": {
+	"Morphology": "Cocci (chains)",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Contributes to dental caries (cavities)"
+  },
+  "Streptococcus oralis": {
+	"Morphology": "Cocci (chains)",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Part of the normal oral flora, can also be an opportunistic pathogen"
+  },
+  "Streptococcus pneumoniae": {
+	"Morphology": "Cocci (chains)",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Pneumonia, meningitis, otitis media"
+  },
+  "Streptococcus pyogenes": {
+	"Morphology": "Cocci (chains)",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Strep throat, impetigo, scarlet fever"
+  },
+  "Streptococcus rattus": {
+	"Morphology": "Cocci (chains)",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Can be commensal in the rat throat or cause opportunistic infections"
+  },
+  "Streptococcus salivarius": {
+	"Morphology": "Cocci (chains)",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Part of the normal oral flora"
+  },
+  "Streptococcus sanguis": {
+	"Morphology": "Cocci (chains)",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Part of the normal oral flora, can cause endocarditis"
+  },
+  "Streptococcus sobrinus": {
+	"Morphology": "Cocci (chains)",
+	"Gram": "Gram-positive",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Contributes to dental caries (cavities)"
+  },
+  "Ureaplasma urealyticum": {
+	"Morphology": "Spheres",
+	"Gram": "Not applicable (lacks cell wall)",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Can be commensal in the urogenital tract or cause urinary tract infections"
+  },
+  "Vibrio cholerae": {
+	"Morphology": "Curved rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Cholera"
+  },
+  "Vibrio comma": {
+	"Morphology": "Curved rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Currently classified as Vibrio cholerae"
+  },
+  "Vibrio parahaemolyticus": {
+	"Morphology": "Curved rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Foodborne illness"
+  },
+  "Vibrio vulnificus": {
+	"Morphology": "Curved rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Skin and soft tissue infections (from exposure to seawater)"
+  },
+  "Yersinia enterocolitica": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Gastroenteritis"
+  },
+  "Yersinia pestis": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Plague"
+  },
+  "Yersinia pseudotuberculosis": {
+	"Morphology": "Rod-shaped",
+	"Gram": "Gram-negative",
+	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
+	"Clinical Features": "Yersinia pseudotuberculosis infection (similar to appendicitis)"
+  }
+}
