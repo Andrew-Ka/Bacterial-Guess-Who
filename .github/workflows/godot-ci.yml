@@ -1,6 +1,7 @@
 # Workflow to publish Godot HTML5 games to GitHub Pages
 #
 # Make sure your project is configured for Web export to the path `build/web`.
+#project\Bacterial Guess Who Run\project.godot
 
 name: 'Publish to GitHub Pages'
 
@@ -34,12 +35,12 @@ jobs:
         run: mkdir -v -p build/web
 
       - name: Build
-        run: godot -v --export-release --headless "Web" ../../build/web/index.html project/Bacterial Guess Who Run/project.godot
+        run: godot -v --export-release --headless "Web" ../build/web/index.html project/Bacterial_Guess_Who_Run/project.godot
 
       - name: Add coi-service-worker
         run: |
           git clone https://github.com/gzuidhof/coi-serviceworker.git
-          mv coi-serviceworker/coi-serviceworker.js build/web/coi-serviceworker.js
+          mv coi-serviceworker/coi-serviceworker.js ../build/web/coi-serviceworker.js
           sed -i '3 i <script src="coi-serviceworker.js"></script>' build/web/index.html 
 
       - name: Deploy
