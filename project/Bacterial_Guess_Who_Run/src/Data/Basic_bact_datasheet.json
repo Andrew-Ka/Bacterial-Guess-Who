@@ -789,7 +789,7 @@
 	"Morphology": "Cocci",
 	"Gram": "Gram-positive",
 	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
-	"Clinical Features": "Various infections, including pneumonia, skin infections, and food poisoning"
+	"Clinical Features": "Various infections (pneumonia, skin infections, and food poisoning)"
   },
   "Staphylococcus epidermidis": {
 	"Morphology": "Cocci",
@@ -867,7 +867,7 @@
 	"Morphology": "Cocci (chains)",
 	"Gram": "Gram-positive",
 	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
-	"Clinical Features": "Can be part of the normal oral flora or cause opportunistic infections like endocarditis"
+	"Clinical Features": "Normal oral flora or cause opportunistic infections (endocarditis)"
   },
   "Streptococcus mutans": {
 	"Morphology": "Cocci (chains)",
@@ -879,7 +879,7 @@
 	"Morphology": "Cocci (chains)",
 	"Gram": "Gram-positive",
 	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
-	"Clinical Features": "Part of the normal oral flora, can also be an opportunistic pathogen"
+	"Clinical Features": "Normal oral flora, can also be an opportunistic pathogen"
   },
   "Streptococcus pneumoniae": {
 	"Morphology": "Cocci (chains)",
@@ -897,7 +897,7 @@
 	"Morphology": "Cocci (chains)",
 	"Gram": "Gram-positive",
 	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
-	"Clinical Features": "Can be commensal in the rat throat or cause opportunistic infections"
+	"Clinical Features": "Commensal in the rat throat or cause opportunistic infections"
   },
   "Streptococcus salivarius": {
 	"Morphology": "Cocci (chains)",
@@ -921,7 +921,7 @@
 	"Morphology": "Spheres",
 	"Gram": "Not applicable (lacks cell wall)",
 	"Metabolism (anaerobic, facultative, ...)": "Facultative anaerobe",
-	"Clinical Features": "Can be commensal in the urogenital tract or cause urinary tract infections"
+	"Clinical Features": "Commensal in the urogenital tract or cause urinary tract infections"
   },
   "Vibrio cholerae": {
 	"Morphology": "Curved rod-shaped",
