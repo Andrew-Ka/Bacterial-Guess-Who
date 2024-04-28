@@ -2,15 +2,11 @@ extends MarginContainer
 
 @onready var CardDatabase = preload("res://src/Data/Basic_bact_datasheet.json")
 var CardName = "Anaplasma phagocytophilum"
-#var CardInfo = StaticData.itemData["Acinetobacter baumannii"]["Gram"]
-#@onready var CardInfo = CardDatabase.DATA[CardName]
-#@onready var CardInfo = CardDatabase.DATA[CardDatabase.E_coli]
-
 @onready var CarImg = str("res://src/Data/Images/Ex Transp Img Gemini.png")
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	#print("Win")
+	print("Win")
 	var CardSize = size
 	#9:29 in vid 
 	$Card_Sprite2D.texture = load(CarImg)
@@ -37,20 +33,15 @@ func _ready():
 	var Morphology = StaticData.itemData[CardName]["Morphology"]
 	var Metabolism = StaticData.itemData[CardName]["Metabolism (anaerobic, facultative, ...)"]
 	var ClinFeat = StaticData.itemData[CardName]["Clinical Features"]
-	#print(Morphology)
-	#print(Metabolism)
-	#print(ClinFeat)
+	print(Morphology)
+	print(Metabolism)
+	print(ClinFeat)
 	$VBoxContainer/Description.text = Morphology + "\n" + Metabolism + "\nClinical Features: " + ClinFeat
 	 
 	
 	
 	
 	
-	
-
-#func _input(event):
-	#$CardBack.scale = size/$CardBack.texture.get_size()
-	#$CardBack.visible = !$CardBack.visible
 	
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
