@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   deploy:
@@ -35,7 +35,7 @@ jobs:
         run: mkdir -v -p build/web
 
       - name: Build
-        run: godot -v --export-release --headless "Web" ../build/web/index.html project/Bacterial_Guess_Who_Run/project.godot
+        run: godot -v --export-release --headless "Web" ../../build/web/index.html project/Bacterial_Guess_Who_Run/project.godot
 
       - name: Add coi-service-worker
         run: |
