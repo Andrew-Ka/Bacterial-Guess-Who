@@ -33,9 +33,9 @@ func _ready():
 	var Morphology = StaticData.itemData[CardName]["Morphology"]
 	var Metabolism = StaticData.itemData[CardName]["Metabolism (anaerobic, facultative, ...)"]
 	var ClinFeat = StaticData.itemData[CardName]["Clinical Features"]
-	print(Morphology)
-	print(Metabolism)
-	print(ClinFeat)
+	#print(Morphology)
+	#print(Metabolism)
+	#print(ClinFeat)
 	$VBoxContainer/Description.text = Morphology + "\n" + Metabolism + "\nClinical Features: " + ClinFeat
 	 
 	
