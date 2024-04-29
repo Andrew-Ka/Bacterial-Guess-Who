@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://k8y8018ihh4h"]
+[gd_scene load_steps=4 format=3 uid="uid://k8y8018ihh4h"]
 
 [ext_resource type="Script" path="res://src/player_board.gd" id="1_yyekj"]
 [ext_resource type="Texture2D" uid="uid://cl5ftjrehb413" path="res://src/Data/Images/Blue_og bkgd.png" id="2_w1wda"]
+[ext_resource type="FontFile" uid="uid://ckc6setr8wt67" path="res://src/Data/Font/static/Dosis-ExtraBold.ttf" id="3_w4jfc"]
 
 [node name="PlayerBoard" type="Node2D"]
 script = ExtResource("1_yyekj")
@@ -41,3 +42,28 @@ size_flags_vertical = 4
 theme_override_constants/h_separation = 75
 theme_override_constants/v_separation = 5
 columns = 5
+
+[node name="PlayerGWCard" type="Node" parent="."]
+
+[node name="MargCont" type="MarginContainer" parent="PlayerGWCard"]
+custom_minimum_size = Vector2(300, 120)
+offset_left = 800.0
+offset_top = 40.0
+offset_right = 1100.0
+offset_bottom = 160.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="GWCardLab" type="Label" parent="PlayerGWCard/MargCont"]
+custom_minimum_size = Vector2(150, 100)
+layout_mode = 2
+size_flags_horizontal = 0
+theme_override_colors/font_color = Color(0.027451, 0.509804, 0.65098, 1)
+theme_override_fonts/font = ExtResource("3_w4jfc")
+theme_override_font_sizes/font_size = 40
+text = "Your Card:"
+
+[node name="GWCard" type="Panel" parent="PlayerGWCard/MargCont"]
+custom_minimum_size = Vector2(85.7, 109)
+layout_mode = 2
+size_flags_horizontal = 8

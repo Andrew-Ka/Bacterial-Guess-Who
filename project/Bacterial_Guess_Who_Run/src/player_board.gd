@@ -34,6 +34,11 @@ func _ready():
 	#for i in GWBoardSize:
 		#print(str(PlayerDeck[i]))
 	print(str(PlayerDeck))
+	#add player GW card
+	var playerCard = CardBase.instantiate()
+	playerCard.CardName = PlayerGuess
+	playerCard.scale *= (testCardSize)/(playerCard.get_size())
+	$PlayerGWCard/MargCont/GWCard.add_child(playerCard)
 
 #This function is to fill the grid with cards
 func fill_grid(hand:Array):
@@ -54,7 +59,8 @@ func fill_grid(hand:Array):
 		cardArr[i].scale *= (testCardSize)/(cardArr[i].get_size())
 		posArr[i].add_child(cardArr[i])
 		
-		
+	
+
 		
 		
 # Calledfor every frame. 'delta' is the elapsed time since the previous frame.
