@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://k8y8018ihh4h"]
+[gd_scene load_steps=5 format=3 uid="uid://k8y8018ihh4h"]
 
 [ext_resource type="Script" path="res://src/player_board.gd" id="1_yyekj"]
 [ext_resource type="Texture2D" uid="uid://cl5ftjrehb413" path="res://src/Data/Images/Blue_og bkgd.png" id="2_w1wda"]
 [ext_resource type="FontFile" uid="uid://ckc6setr8wt67" path="res://src/Data/Font/static/Dosis-ExtraBold.ttf" id="3_w4jfc"]
+[ext_resource type="Script" path="res://src/Chat.gd" id="4_nmyvu"]
 
 [node name="PlayerBoard" type="Node2D"]
 script = ExtResource("1_yyekj")
@@ -67,3 +68,89 @@ text = "Your Card:"
 custom_minimum_size = Vector2(85.7, 109)
 layout_mode = 2
 size_flags_horizontal = 8
+
+[node name="Chat" type="Node" parent="."]
+script = ExtResource("4_nmyvu")
+
+[node name="Join" type="Button" parent="Chat"]
+custom_minimum_size = Vector2(38, 31)
+offset_left = 800.0
+offset_top = 580.0
+offset_right = 838.0
+offset_bottom = 611.0
+text = "Join"
+
+[node name="Send" type="Button" parent="Chat"]
+visible = false
+custom_minimum_size = Vector2(38, 31)
+offset_left = 800.0
+offset_top = 580.0
+offset_right = 838.0
+offset_bottom = 611.0
+text = "Send"
+
+[node name="Host" type="Button" parent="Chat"]
+custom_minimum_size = Vector2(45, 31)
+offset_left = 850.0
+offset_top = 580.0
+offset_right = 895.0
+offset_bottom = 611.0
+text = "Host"
+
+[node name="Leave" type="Button" parent="Chat"]
+custom_minimum_size = Vector2(50, 31)
+offset_left = 910.0
+offset_top = 580.0
+offset_right = 963.0
+offset_bottom = 611.0
+text = "Leave"
+
+[node name="IPenter" type="LineEdit" parent="Chat"]
+custom_minimum_size = Vector2(55, 31)
+offset_left = 970.0
+offset_top = 580.0
+offset_right = 1070.0
+offset_bottom = 611.0
+placeholder_text = "IP Address"
+
+[node name="MarginContainer" type="MarginContainer" parent="Chat"]
+custom_minimum_size = Vector2(300, 400)
+offset_left = 800.0
+offset_top = 180.0
+offset_right = 1100.0
+offset_bottom = 580.0
+
+[node name="Panel" type="Panel" parent="Chat/MarginContainer"]
+layout_mode = 2
+
+[node name="InputMessage" type="LineEdit" parent="Chat/MarginContainer/Panel"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -31.0
+grow_horizontal = 2
+grow_vertical = 0
+placeholder_text = "Input Message Here"
+
+[node name="MessageHist" type="TextEdit" parent="Chat/MarginContainer/Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_bottom = -43.0
+grow_horizontal = 2
+grow_vertical = 2
+editable = false
+
+[node name="DisplayIP" type="Label" parent="."]
+custom_minimum_size = Vector2(50, 32)
+offset_right = 40.0
+offset_bottom = 23.0
+metadata/_edit_use_anchors_ = true
+
+[connection signal="button_up" from="Chat/Join" to="Chat" method="_on_join_button_up"]
+[connection signal="button_up" from="Chat/Send" to="Chat" method="_on_send_button_up"]
+[connection signal="button_up" from="Chat/Host" to="Chat" method="_on_host_button_up"]
+[connection signal="button_up" from="Chat/Leave" to="Chat" method="_on_leave_button_up"]

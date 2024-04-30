@@ -6,7 +6,7 @@ var CardName = "Anaplasma phagocytophilum"
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	print("Win")
+	#print("Win")
 	var CardSize = size
 	#9:29 in vid 
 	$Card_Sprite2D.texture = load(CarImg)
