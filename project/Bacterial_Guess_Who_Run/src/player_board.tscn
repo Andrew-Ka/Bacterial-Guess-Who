@@ -98,6 +98,7 @@ offset_bottom = 611.0
 text = "Host"
 
 [node name="Leave" type="Button" parent="Chat"]
+visible = false
 custom_minimum_size = Vector2(50, 31)
 offset_left = 910.0
 offset_top = 580.0
@@ -106,10 +107,10 @@ offset_bottom = 611.0
 text = "Leave"
 
 [node name="IPenter" type="LineEdit" parent="Chat"]
-custom_minimum_size = Vector2(55, 31)
-offset_left = 970.0
+custom_minimum_size = Vector2(90, 31)
+offset_left = 925.0
 offset_top = 580.0
-offset_right = 1070.0
+offset_right = 1045.0
 offset_bottom = 611.0
 placeholder_text = "IP Address"
 
