@@ -6,20 +6,22 @@ extends Node
 @onready var leave = $Leave
 @onready var i_penter = $IPenter
 @onready var input_message = $MarginContainer/Panel/InputMessage
+@onready var http_request = $HTTPRequest
 @onready var message_hist = $MarginContainer/Panel/MessageHist
+#var url = "https://chitchatter.im/"
 
 var IPAddress
 var player
 
 
 # Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	pass
+#func _ready():
+	#pass # Replace with function body.
+#
+#
+## Called every frame. 'delta' is the elapsed time since the previous frame.
+#func _process(delta):
+	#pass
 
 
 
@@ -35,7 +37,7 @@ func host_chat():
 func join_room():
 	IPAddress = i_penter.text
 	var host = ENetMultiplayerPeer.new()
-	host.create_client(IPAddress, 2000)
+	host.create_client("127.0.0.1", 2000)
 	get_tree().set_multiplayer(SceneMultiplayer.new(),self.get_path())
 	multiplayer.multiplayer_peer = host
 	player = "P2"
@@ -84,3 +86,7 @@ func _on_send_button_up():
 func msg_rpc(user, data):
 	message_hist.text += str(user, ": ", data, "\n") 
 	message_hist.scroll_vertical = INF
+
+
+#func _on_http_request_request_completed(result, response_code, headers, body):
+	#pass # Replace with function body.

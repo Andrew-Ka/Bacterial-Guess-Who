@@ -4,6 +4,8 @@ extends Node2D
 @onready var CardBase = preload("res://src/Data/card_base.tscn")
 const Deck = preload("res://src/Data/Scripts/possible_cards.gd")
 @onready var display_ip = $DisplayIP
+@onready var http_request = $Chat/HTTPRequest
+var url = "https://chitchatter.im/"
 var ip_adress :String
 var PlayerDeck = []
 var PlayerGuess
@@ -28,9 +30,22 @@ func _ready():
 			PlayerDeck.append(Deck.CardList[randInt])
 			#BotDeck.append(Deck.CardList[(randInt+5) % DeckSize])
 	
+	#The 7 bacteria we need to check for:
+	#Staphylococcus epidermidis, Vibrio cholerae
+	#Yersinia pseudotuberculosis, Shigella dysenteriae
+	#Nocardia farcinica, Mycoplasma pneumoniae
+	#Agrobacterium radiobacter
+	var choosable = ["Staphylococcus epidermidis", "Vibrio cholerae",
+	"Yersinia pseudotuberculosis", "Shigella dysenteriae",
+	"Nocardia farcinica", "Mycoplasma pneumoniae",
+	"Agrobacterium radiobacter"]
 	
-	randInt = randInt % GWBoardSize
-	PlayerGuess = PlayerDeck[randInt]
+	for i in 7:
+		if !(PlayerDeck.has(choosable[i])):
+			PlayerDeck[(i*2 % DeckSize)] = choosable[i]
+	
+	randInt = randInt % 7
+	PlayerGuess = choosable[randInt]
 	#BotGuess = PlayerDeck[(randInt+2) % GWBoardSize]
 	
 	fill_grid(PlayerDeck)
@@ -77,6 +92,8 @@ func find_ip():
 	elif OS.has_feature("OSX"):
 		if OS.has_environment("HOSTNAME"):
 			ip_adress =  IP.resolve_hostname(str(OS.get_environment("HOSTNAME")),1)
+	
+	
 
 
 

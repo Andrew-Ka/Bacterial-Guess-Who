@@ -73,6 +73,7 @@ size_flags_horizontal = 8
 script = ExtResource("4_nmyvu")
 
 [node name="Join" type="Button" parent="Chat"]
+visible = false
 custom_minimum_size = Vector2(38, 31)
 offset_left = 800.0
 offset_top = 580.0
@@ -90,6 +91,7 @@ offset_bottom = 611.0
 text = "Send"
 
 [node name="Host" type="Button" parent="Chat"]
+visible = false
 custom_minimum_size = Vector2(45, 31)
 offset_left = 850.0
 offset_top = 580.0
@@ -107,6 +109,7 @@ offset_bottom = 611.0
 text = "Leave"
 
 [node name="IPenter" type="LineEdit" parent="Chat"]
+visible = false
 custom_minimum_size = Vector2(90, 31)
 offset_left = 925.0
 offset_top = 580.0
@@ -115,6 +118,7 @@ offset_bottom = 611.0
 placeholder_text = "IP Address"
 
 [node name="MarginContainer" type="MarginContainer" parent="Chat"]
+visible = false
 custom_minimum_size = Vector2(300, 400)
 offset_left = 800.0
 offset_top = 180.0
@@ -145,7 +149,10 @@ grow_horizontal = 2
 grow_vertical = 2
 editable = false
 
+[node name="HTTPRequest" type="HTTPRequest" parent="Chat"]
+
 [node name="DisplayIP" type="Label" parent="."]
+visible = false
 custom_minimum_size = Vector2(50, 32)
 offset_left = 804.0
 offset_top = 151.0
@@ -156,7 +163,21 @@ theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 15
 metadata/_edit_use_anchors_ = true
 
+[node name="InfoBox" type="Label" parent="."]
+custom_minimum_size = Vector2(70, 80)
+offset_left = 800.0
+offset_top = 200.0
+offset_right = 1100.0
+offset_bottom = 650.0
+theme_override_colors/font_color = Color(0, 0.447059, 0.796078, 1)
+theme_override_font_sizes/font_size = 22
+text = "*2 Players Needed, 2 devices needed*
+
+Welcome to Bacterial Guess Who! Your objective is to take turns question your opponent using yes or no questions. The game ends if you can correctly guess your opponent's bacteria."
+autowrap_mode = 2
+
 [connection signal="button_up" from="Chat/Join" to="Chat" method="_on_join_button_up"]
 [connection signal="button_up" from="Chat/Send" to="Chat" method="_on_send_button_up"]
 [connection signal="button_up" from="Chat/Host" to="Chat" method="_on_host_button_up"]
 [connection signal="button_up" from="Chat/Leave" to="Chat" method="_on_leave_button_up"]
+[connection signal="request_completed" from="Chat/HTTPRequest" to="Chat" method="_on_http_request_request_completed"]
